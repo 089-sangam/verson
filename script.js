@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let version = "Aug 01, 2021 00:00:00",
+    let version =window.prompt("Enter date and time as ex:- Mar 28, 2021 11:21:00 "),
         countDown = new Date(version).getTime(),
         x = setInterval(function() {    
   
